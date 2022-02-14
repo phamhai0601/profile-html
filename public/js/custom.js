@@ -18,3 +18,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 			});
 	}
 );
+
+$(document).on('click', '.nav-item > a', function() {
+	if(screen.width < 480) {
+		$('#navbar').attr("style", "display:none!important");
+		$('#show-navbar').html('<i class="fas fa-bars"></i>')
+	}
+})
