@@ -1,0 +1,25 @@
+@media only screen and (max-width: 480px) {
+    #container > .des .des_one > h1 {
+        font-size: 2rem !important;
+    }
+
+    div.hire > h2 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+    }
+}
+
+
+@media only screen and (min-width: 1025px) {
+    body {
+    }
+}
