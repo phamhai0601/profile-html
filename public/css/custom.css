@@ -1,0 +1,71 @@
+body {
+    font-family: cursive;
+}
+
+li.nav-item {
+    padding: 10px;
+    font-weight: bold;
+}
+
+li.nav-item > a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+li.nav-item > a:hover {
+    text-decoration: underline blue;
+}
+
+div.collapse.navbar-collapse {
+    display: block;
+}
+
+div.col-xs-12.col-sm-4.d-flex.flex-column.px-5.d-none.d-xs-none.d-sm-block {
+    background: #f8f9fa !important;
+}
+
+#container > .des {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://preview.colorlib.com/theme/jackson/images/ximg_bg_2.jpg.pagespeed.ic.xEiGUO7p7Q.webp");
+    background-size: cover;
+}
+
+#container > .des .des_one, des_tow {
+    position: relative;
+    top: calc(30vh);
+    animation-name: des_one_show;
+    animation-duration: 3s;
+}
+
+@keyframes des_one_show {
+    from {
+        opacity: 0;
+        top: calc(0vh);
+    }
+    to {
+        opacity: 1;
+        top: calc(30vh);
+    }
+}
+
+div.des_one > h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+#container {
+    overflow: scroll;
+}
+
+div.des_tow {
+    display: none;
+}
+
+#container > .about {
+    padding-top: 10vh !important;
+    height: 100vh;
+}
+
+
