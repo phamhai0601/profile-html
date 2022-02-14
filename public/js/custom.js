@@ -5,7 +5,8 @@ $(document).on('click', '#show-navbar', function() {
 		$(this).html('<i class="fas fa-bars"></i>')
 	} else {
 		div.attr("style", "display:block!important");
-		$(this).html('<i class="fas fa-times"></i>')
+		$(this).html('<i class="fas fa-times"></i>');
+
 	}
 })
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {

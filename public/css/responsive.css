@@ -3,6 +3,13 @@
         font-size: 2rem !important;
     }
 
+    #navbar {
+        animation-name: navbar-show;
+        animation-duration: 0.5s;
+        position: relative;
+
+    }
+
     div.hire > h2 {
         font-size: 1rem;
     }
