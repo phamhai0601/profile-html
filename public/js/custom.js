@@ -8,4 +8,14 @@ $(document).on('click', 'button[class="navbar-toggler d-xs-block d-sm-none"]', f
 		$(this).html('<i class="fas fa-times"></i>')
 	}
 })
-
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+	anchor
+	.addEventListener('click', function(e) {
+		e.preventDefault();
+		document.querySelector(this.getAttribute('href')).scrollIntoView({
+			behavior: 'smooth'
+		});
+	});
+}
+)
+;
